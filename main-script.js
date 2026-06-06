@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Setadiran - درخواستهای سامانه
 // @namespace    http://tampermonkey.net/
-// @version      4.1
+// @version      4.11
 // @description  Automates navigation, filters columns, with retry mechanism for dropped pages
 // @author       Avisa AI
 // @match        https://eproc.setadiran.ir/eproc/home.do*
 // @match        https://eproc.setadiran.ir/eproc/needAdvancedSearch.do*
 // @run-at       document-idle
-// @updateURL    https://raw.githubusercontent.com/username/repo-name/main/myscript.user.js
-// @downloadURL  https://raw.githubusercontent.com/username/repo-name/main/myscript.user.js
+// @updateURL    https://raw.githubusercontent.com/Avisa-ai/setadiran-export/refs/heads/main/main-script.js
+// @downloadURL  https://raw.githubusercontent.com/Avisa-ai/setadiran-export/refs/heads/main/main-script.js
 // @grant        none
 // ==/UserScript==
 
