@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Setadiran - درخواستهای سامانه
 // @namespace    http://tampermonkey.net/
-// @version      4.11
+// @version      4.12
 // @description  Automates navigation, filters columns, with retry mechanism for dropped pages
 // @author       Avisa AI
 // @match        https://eproc.setadiran.ir/eproc/home.do*
@@ -25,7 +25,8 @@
     if (window.location.href.includes('home.do')) {
         let btn = document.createElement('button');
         btn.textContent = 'شروع اتوماسیون و EXPORT';
-        btn.style.cssText = 'position:fixed; bottom:20px; left:20px; z-index:9999; padding:15px; background:red; color:white; font-size:16px; border:none; border-radius:5px; cursor:pointer; font-family:tahoma;';
+        btn.style.cssText = 'position:fixed; bottom:20px; left:20px; z-index:9999; padding:15px; background:#4682b4; color:white; font-size:16px; border:none; border-radius:5px; cursor:pointer; font-family:tahoma; direction: rtl;';
+
         document.body.appendChild(btn);
 
         btn.addEventListener('click', function() {
